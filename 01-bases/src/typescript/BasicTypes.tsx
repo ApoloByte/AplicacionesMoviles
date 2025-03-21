@@ -24,7 +24,10 @@ export const BasicTypes = () => {
       </p>
       <p>
         <b>Literal Object: </b> {JSON.stringify(person, null, 2)}
+        <p><b>age </b>: {person['age']}</p>
       </p>
     </div>
   );
 };
+
+export default BasicTypes
